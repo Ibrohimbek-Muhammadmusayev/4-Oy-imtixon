@@ -1,0 +1,111 @@
+.block__head{
+    margin-top: 32px;
+    display: flex;
+    width: 1110px;
+    height: 326px;
+    flex-shrink: 0;
+    .block__hed{
+        display: flex;
+        padding-left: 95px;
+        width: 730px;
+        height: 326px;
+        flex-shrink: 0;
+        border-radius: 15px;
+background: #FDF3F0;
+margin-right: 30px;
+    }
+    iframe{
+        margin-right: 32px;
+        border-radius: 15px;
+        width: 326px;
+        height: 326px;
+    }
+    .lokatsiyaa{
+        padding-top: 115px;
+        padding-left: 70px;
+        font-family: 'Jost', sans-serif;
+
+    }
+    .canada{
+        color: #E7816B;
+        font-family: 'Jost', sans-serif;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 120% */
+    }
+    .lokatsiya{
+        color: #333136;
+        font-family: 'Jost', sans-serif;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+    }
+    .map__bottom{
+        
+    }
+}
+
+.section_bottom {
+    margin-top: 160px;
+    width: 1111px;
+    height: 292px;
+    border-radius: 15px;
+    background: #E7816B;
+    background-image: url(/static/svg/ovals.svg);
+    background-repeat: no-repeat;
+    background-position:right;
+    display: flex;
+    justify-content: space-between;
+
+    .bottom_left {
+        .bottom_name {
+            padding-top: 72px;
+            padding-left: 95px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px;
+        }
+        
+        .bottom_text {
+            padding-top: 12px;
+            padding-left: 95px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    .bottom_btn {
+        margin-top: 118px;
+        margin-right: 96px;
+        color: #333136;
+        font-family: Jost;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 152px;
+        height: 56px;
+        border-radius: 8px;
+        background: #FFF;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .bottom_btn:hover {
+        transition: all 0.5s ease-in-out;
+        background-color:#FFAD9B;
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,30 @@
+.header_top {
+    margin-top: 63px;
+    max-width: 1111px;
+    height: 252px;
+    border-radius: 15px;
+    background: #E7816B;
+    background-image: url(/static/svg/ovals2.svg);
+
+    .header__top_name {
+        padding-top: 63px;
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+    }
+
+    .header__top_text {
+        margin-top: 24px;
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}

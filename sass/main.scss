@@ -5,3 +5,45 @@
 @use 'base';
 @use 'mixin';
 @use 'media';
+
+// block //
+
+// header //
+
+@use 'block/hearder/header1';
+@use 'block/hearder/header2';
+@use 'block/hearder/header3';
+@use 'block/hearder/header4';
+@use 'block/hearder/header5';
+@use 'block/hearder/header6';
+@use 'block/hearder/header7';
+
+// nav //
+
+@use 'block/nav/nav1';
+@use 'block/nav/nav2';
+@use 'block/nav/nav3';
+@use 'block/nav/nav4';
+@use 'block/nav/nav5';
+@use 'block/nav/nav6';
+@use 'block/nav/nav7';
+
+// main //
+
+@use 'block/main/main1';
+@use 'block/main/main2';
+@use 'block/main/main3';
+@use 'block/main/main4';
+@use 'block/main/main5';
+@use 'block/main/main6';
+@use 'block/main/main7';
+
+// footer //
+
+@use 'block/footer/footer1';
+@use 'block/footer/footer2';
+@use 'block/footer/footer3';
+@use 'block/footer/footer4';
+@use 'block/footer/footer5';
+@use 'block/footer/footer6';
+@use 'block/footer/footer7';

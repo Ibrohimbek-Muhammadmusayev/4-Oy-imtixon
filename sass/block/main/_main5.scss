@@ -1,0 +1,293 @@
+
+// birinchi section
+
+.section_top {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    width: 1111px;
+    height: 480px;
+    background-color: #E7816B;
+    background-image: url(/static/svg/big-oval.svg);
+
+    .section__text_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 32px;
+        
+        .section__top_name {
+            padding-left: 95px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 48px;
+        }
+        
+        .section__top_text {
+            padding-left: 95px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
+
+// ikkinchi section
+
+.section_middle {
+    margin-top: 160px;
+    width: 1111px;
+    height: 640px;
+    border-radius: 15px;
+    background-color:#FDF3F0;
+    display: flex;
+}
+
+.section__right_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .right_name{
+        padding-left: 94px;
+        color: #E7816B;
+        font-family: Jost;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+    }
+
+    .right_text {
+        padding-top: 24px;
+        padding-left: 94px;
+        color: #333136;
+        font-family: Jost;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+// cartlar
+
+.section_middle_carts {
+    margin-top: 160px;
+    display: flex;
+
+    // birinchi cart
+    .carts1 {
+        width: 350px;
+        height: 364px;
+        text-align: center;
+
+        .carts_name1 {
+            padding-top: 48px;
+            color: #333136;
+            text-align: center;
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 5px;
+        }
+
+        .carts_btn1 {
+            margin-top: 32px;
+            width: 152px;
+            height: 56px;
+            border-radius: 8px;
+            background-color: #E7816B;
+            border: none;
+            color: #FFF;
+            text-align: center;
+            font-family: Jost;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .carts_btn1:hover {
+            background-color:#FFAD9B;
+        }
+    }
+
+    // ikkinchi card
+
+    .carts2 {
+        width: 350px;
+        height: 364px;
+        text-align: center;
+
+        .carts_name2 {
+            padding-top: 48px;
+            color: #333136;
+            text-align: center;
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 5px;
+        }
+
+        .carts_btn2 {
+            margin-top: 32px;
+            width: 152px;
+            height: 56px;
+            border-radius: 8px;
+            background-color: #E7816B;
+            border: none;
+            color: #FFF;
+            text-align: center;
+            font-family: Jost;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+    }
+
+    // uchinchi cart
+
+    .carts3 {
+        width: 350px;
+        height: 364px;
+        text-align: center;
+    }
+
+    .carts_name3 {
+        padding-top: 48px;
+        color: #333136;
+        text-align: center;
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 5px;
+    }
+
+    .carts_btn3 {
+        margin-top: 32px;
+        width: 152px;
+        height: 56px;
+        border-radius: 8px;
+        background-color: #E7816B;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+.section_bottom-cart {
+    margin-top: 160px;
+    width: 1111px;
+    height: 640px;
+    border-radius: 15px;
+    background-color:#FDF3F0;
+    display: flex;
+    justify-content: space-between;
+
+    .section__left_text{
+        padding-left: 95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .left_name {
+            color: #E7816B;
+            font-family: Jost;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 48px;
+        }
+
+        .left_text {
+            margin-top: 24px;
+            color: #333136;
+            font-family: Jost;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px
+        }
+    }
+}
+
+.section_bottom {
+    margin-top: 160px;
+    width: 1111px;
+    height: 292px;
+    border-radius: 15px;
+    background: #E7816B;
+    background-image: url(/static/svg/ovals.svg);
+    background-repeat: no-repeat;
+    background-position:right;
+    display: flex;
+    justify-content: space-between;
+
+    .bottom_left {
+        .bottom_name {
+            padding-top: 72px;
+            padding-left: 95px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px;
+        }
+        
+        .bottom_text {
+            padding-top: 12px;
+            padding-left: 95px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    .bottom_btn {
+        margin-top: 118px;
+        margin-right: 96px;
+        color: #333136;
+        font-family: Jost;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 152px;
+        height: 56px;
+        border-radius: 8px;
+        background: #FFF;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .bottom_btn:hover {
+        transition: all 0.5s ease-in-out;
+        background-color:#FFAD9B;
+        opacity: 0.6;
+    }
+}
